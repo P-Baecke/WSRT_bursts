@@ -32,9 +32,9 @@ plt.rcParams['font.family'] = 'serif'
 epochs = ['pex006', 'pex007', 'pex008', 'pex009', 'pex010', 'pex011', 'pex012', 'pex013', 'pex014', 'pex015', 'pex016', 'pex017', 'pex018']
 
 # Define the base path of the processed data
-base_dir = '/data/minoss-vdb/wsrt_bursts/processed/'
+base_dir = '/path/to/processed/data/'
 
-cache_dir = '/home/paulbaecke/Research_Project/analysis_cache/mf/'
+cache_dir = '/path/to/new/directory/'
 
 os.makedirs(cache_dir, exist_ok=True)
 

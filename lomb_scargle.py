@@ -20,9 +20,9 @@ plt.rcParams['font.family'] = 'serif'
 plt.rcParams['agg.path.chunksize'] = 10000
 
 # Directory containing the light curves 
-cache_dir = "/home/paulbaecke/Research_Project/analysis_cache/tvar/"
+cache_dir = "/path/to/light/curves/"
 
-plot_path = "/home/paulbaecke/Research_Project/LC_LS_plots/binned_plots/"
+plot_path = "/path/for/plots/"
 
 # List of observation sources
 source = ['ADLEO', 'EQPEG', 'WXUMA', 'PSV1', 'ILTJ1101']
