@@ -64,15 +64,15 @@ It contains a noise removal pipeline with additional functions.
 ### file_handling.py  
 
   get_data  
-   - Function to read out data from a filterbank file and returns a dictionary with the measured data in all polarisations  
+      Function to read out data from a filterbank file and returns a dictionary with the measured data in all polarisations  
   assign_calibration_by_order  
-   - Assigns calibration pulsars to sources based on their order in the observation list and sorts the data files  
+      Assigns calibration pulsars to sources based on their order in the observation list and sorts the data files  
   save_to_fits  
-   - Save a 2D array of data as a .fits file  
+      Save a 2D array of data as a .fits file  
   load_from_fits  
-   - Load a 2D array of data as a .fits file  
+      Load a 2D array of data as a .fits file  
   save_to_fil  
-   - Writes a filterbank file of the inserted data  
+      Writes a filterbank file of the inserted data  
 
 ### spectrum_functions.py
 
