@@ -6,7 +6,7 @@ It contains a noise removal pipeline with additional functions.
 
 ## Pipeline description:
 
-### 01_calc_stokes_man_flag.py  
+### `01_calc_stokes_man_flag.py`  
   Run in terminal with all the paths specified  
   Reads in full Stokes filterbank files  
   Form the Stokes parameters I and V  
@@ -18,7 +18,7 @@ It contains a noise removal pipeline with additional functions.
 
 ### AOFlagger #1:  
   In terminal:  
-  aoflagger -v -strategy /path/to/wsrt-rt2-0.lua /path/to/data/*  
+  `aoflagger -v -strategy /path/to/wsrt-rt2-0.lua /path/to/data/*` 
   This automatically flags common and mid-intense RFI  
   Be aware that this overwrites your files  
 
