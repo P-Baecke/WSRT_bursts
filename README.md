@@ -58,5 +58,30 @@ It contains a noise removal pipeline with additional functions.
   Plots the light curves
   Performs a Lomb-Scargle periodicity search and plots the power and window function
 
-  
+
+## Helper functions  
+
+### file_handling.py  
+
+  get_data  
+   - Function to read out data from a filterbank file and returns a dictionary with the measured data in all polarisations  
+  assign_calibration_by_order  
+   - Assigns calibration pulsars to sources based on their order in the observation list and sorts the data files  
+  save_to_fits  
+   - Save a 2D array of data as a .fits file  
+  load_from_fits  
+   - Load a 2D array of data as a .fits file  
+  save_to_fil  
+   - Writes a filterbank file of the inserted data  
+
+### spectrum_functions.py
+
+  dedisperse
+   - dedisperse a 2D array of pulsar time-frequency data
+  fold_pulsar_data_phase_frac
+   - Fold pulsar data into phase bins using high-resolution fractional bin weighting, then optionally re-bin down to a coarser grid
+
+### bandpass_correction.py
+
+
   
